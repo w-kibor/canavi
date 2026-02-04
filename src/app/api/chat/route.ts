@@ -19,7 +19,8 @@ export async function POST(req: NextRequest) {
         }
 
         const genAI = new GoogleGenerativeAI(apiKey);
-        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+        // Model initialization moved to step 3
+
 
         const { message, grades } = (await req.json()) as ChatRequest;
 
@@ -71,6 +72,9 @@ export async function POST(req: NextRequest) {
     `;
 
         // 3. Generate Response
+        // Use gemini-3-pro-preview as requested for better performance/reasoning
+        const model = genAI.getGenerativeModel({ model: "gemini-3-pro-preview" });
+
         const chat = model.startChat({
             history: [
                 {
@@ -89,10 +93,16 @@ export async function POST(req: NextRequest) {
 
         return NextResponse.json({ reply: responseText });
 
-    } catch (error) {
-        console.error("Chat Error:", error);
+    } catch (error: any) {
+        console.error("Chat Error Details:", {
+            message: error.message,
+            status: error.status,
+            statusText: error.statusText,
+            stack: error.stack,
+        });
+
         return NextResponse.json(
-            { error: "Failed to generate response. Please try again." },
+            { error: `Failed to generate response. ${error.message || "Unknown error"}` },
             { status: 500 }
         );
     }

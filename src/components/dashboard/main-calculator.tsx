@@ -8,6 +8,10 @@ import { calculateAggregate, calculateClusterPoints, ClusterResult } from "@/lib
 import { StudentSubject } from "@/lib/logic/subject-mapping";
 import { MOCK_CLUSTERS } from "@/lib/data/clusters";
 
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Compass } from "lucide-react";
+
 export function MainCalculator() {
     const [results, setResults] = useState<ClusterResult[] | null>(null);
     const [aggregate, setAggregate] = useState<number>(0);
@@ -30,13 +34,24 @@ export function MainCalculator() {
 
     return (
         <div className="max-w-5xl mx-auto px-4 py-12 space-y-12">
-            <div className="text-center space-y-4">
-                <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">
-                    KCSE Career Navigator
-                </h1>
-                <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                    Calculate your weighted cluster points and discover your eligible courses for KUCCPS placement.
-                </p>
+            <div className="text-center space-y-6">
+                <div className="space-y-4">
+                    <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">
+                        KCSE Career Navigator
+                    </h1>
+                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                        Calculate your weighted cluster points and discover your eligible courses for KUCCPS placement.
+                    </p>
+                </div>
+
+                <div className="flex justify-center">
+                    <Link href="/explore">
+                        <Button variant="outline" className="rounded-full border-blue-200 bg-blue-50 text-blue-700 hover:bg-blue-100 hover:text-blue-800 transition-colors">
+                            <Compass className="w-4 h-4 mr-2" />
+                            Explore All Degree Courses
+                        </Button>
+                    </Link>
+                </div>
             </div>
 
             <div className="grid lg:grid-cols-12 gap-8">
