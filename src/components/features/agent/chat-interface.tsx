@@ -5,7 +5,8 @@ import { Send, User, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/utils/cn";
-import { StudentSubject } from "@/lib/logic/subject-mapping";
+import { GRADE_POINTS, StudentSubject } from "@/lib/logic/subject-mapping";
+import { logCareerSearch } from "@/utils/analytics";
 
 interface ChatInterfaceProps {
     grades: StudentSubject[];
@@ -33,6 +34,25 @@ export function ChatInterface({ grades, hasCalculated }: ChatInterfaceProps) {
         scrollToBottom();
     }, [messages]);
 
+    const getMathGrade = (subjects: StudentSubject[]) =>
+        subjects.find((s) => s.subjectCode === "121")?.grade ?? "N/A";
+
+    const getScienceGrade = (subjects: StudentSubject[]) => {
+        const scienceCodes = new Set(["231", "232", "233"]);
+        const scienceGrades = subjects.filter((s) => scienceCodes.has(s.subjectCode));
+
+        if (scienceGrades.length === 0) return "N/A";
+
+        let best = scienceGrades[0].grade;
+        for (const s of scienceGrades) {
+            if (GRADE_POINTS[s.grade] > GRADE_POINTS[best]) {
+                best = s.grade;
+            }
+        }
+
+        return best;
+    };
+
     const handleSend = async () => {
         if (!input.trim() || !hasCalculated) return;
 
@@ -54,6 +74,9 @@ export function ChatInterface({ grades, hasCalculated }: ChatInterfaceProps) {
                 setMessages((prev) => [...prev, { role: "model", text: "Error: " + data.error }]);
             } else {
                 setMessages((prev) => [...prev, { role: "model", text: data.reply }]);
+                const mathGrade = getMathGrade(grades);
+                const scienceGrade = getScienceGrade(grades);
+                await logCareerSearch(mathGrade, scienceGrade, data.reply);
             }
         } catch (error) {
             console.error(error);
