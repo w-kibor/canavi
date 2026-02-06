@@ -1,0 +1,826 @@
+[
+    {
+        "title": "Bachelor of Science in Software Development",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-software-development/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Secretaries (CS)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-secretaries-cs/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Information System Auditor (CISA)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-information-system-auditor-cisa/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Association of Chartered Certified Accountants (ACCA",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/association-of-chartered-certified-accountants-acca-uk/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Banking",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-banking/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Information technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-information-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Advanced Excel",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/advanced-excel/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Arts in Economics and Business Studies",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-arts-in-economics-and-business-studies/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science In Data Science",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-data-science/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science in Supply Chain Management",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-in-supply-chain-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Education",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-education/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Computer Applications",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-computer-applications/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Arts in Criminology",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-arts-in-criminology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma In Culinary Arts",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-culinary-arts/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Education (M.Ed)",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-education-m-ed/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Commerce",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-commerce/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science in Commerce",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-in-commerce/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Proficiency Certification in Foodpreneurship",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/proficiency-certification-in-foodpreneurship/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Criminology and Criminal Justice",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-criminology-and-criminal-justice/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Arts in Journalism and Digital Media",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-arts-in-journalism-and-digital-media/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Information Security and Forensics",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-information-security-and-forensics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of International Business Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-international-business-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Procurement and Logistics",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-procurement-and-logistics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Business Administration (MBA)",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-business-administration-mba/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Food and Beverages",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-food-and-beverages/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Business Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-business-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate In Culinary Arts",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-culinary-arts/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Human Resource Professional (CHRP)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-human-resource-professional-chrp/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "AWS – Cloud Practitioner",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/aws-cloud-practitioner/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Public Accountants (CPA)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-public-accountants-cpa/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Education Early Childhood Education",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-education-early-childhood-education/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science in Information Systems Management",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-in-information-systems-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Actuarial Science",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-actuarial-science/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Information Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-information-communication-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Doctor of Philosophy in Finance Program",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "PhD",
+        "link": "https://www.kcau.ac.ke/course/doctor-of-philosophy-in-finance-program/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Doctor of Philosophy In Business Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "PhD",
+        "link": "https://www.kcau.ac.ke/course/doctor-of-philosophy-in-business-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science Knowledge Management and Innovation",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-knowledge-management-and-innovation/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Accounting Technicians Diploma (ATD)",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/accounting-technicians-diploma-atd/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "CCNA ( Level 1",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/cisco-level-1-4/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Computer Accounting Packages",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/accounting-packages/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Proficiency Certification in Professional Cookery",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/professional-cookery/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Web Applications and Development",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/web-applications-and-development/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Film Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-film-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science in Data Analytics",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-in-data-analytics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Business Administration Corporate Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-business-administration-corporate-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Arts Counselling Psychology",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-arts-counselling-psychology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Statistical Package for Social Sciences (SPSS)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/statistical-package-for-social-sciences/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "International Certificate of Digital Literacy (ICDL)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/international-computer-driving-license-icdl/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Counselling Psychology",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-counselling-psychology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Forensic Accounting",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-forensic-accounting/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Business Information Technology",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-business-information-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Project Management",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-project-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "International English Language Testing System (IELTS)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/international-english-language-testing-system-ielts/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Post Graduate Diploma in Education",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/post-graduate-diploma-in-education/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Business Administration Human Resource Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-business-administration-human-resource-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Information Systems Solutions Expert (CISSE)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-information-systems-solutions-expert-cisse/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Sage Accounting",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/sage-accounting/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Craft Certificate in Information Communication Technology (ICT)",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/craft-certificate-in-information-communication-technology-ict/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Information Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-information-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Arts in Film Technology and Performing Arts",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-arts-in-film-technology-and-performing-arts/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "QuickBooks Accounting",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/quickbooks-accounting/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Public Management",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-public-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Data Analytics With Python",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/data-analytics-with-python/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Microsoft Office",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/ms-office/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Craft Certificate in Food and Bevarages",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/craft-certificate-in-food-and-bevarages/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Business Administration Procurement and Supplies Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-business-administration-procurement-and-supplies-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Business Administration Marketing",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-business-administration-marketing/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Economics & Statistics",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bsc-science-in-economics-statistics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Proficiency Certification in Baking and Pastry",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/proficiency-certification-in-baking-and-pastry/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Investment and Financial Analysts (CIFA)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-investment-and-financial-analysts-cifa/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Procurement and Supply Professional (CPSP",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-procurement-and-supply-professional/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Artisan Certificate in Food and Beverages",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/artisan-certificate-in-food-and-beverages/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Proficiency Certification in Barista and Mixology",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/proficiency-certification-in-barista-and-mixology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Backend Web Development With Python",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/backend-web-development-with-python/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Film Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-film-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Accounting and Management Skills (CAMS)",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-accounting-and-management-skills-cams/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Arts Counselling Psychology",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-arts-counselling-psychology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Business Information Technology",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-business-information-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Data Management and Analytics (DDMA)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-data-management-analytics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Gaming and Animation Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-gaming-and-animation-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Project Management",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-project-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Craft Certificate in Business Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/craft-certificate-in-business-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Counselling Psychology",
+        "department": "School of Arts & Social Sciences",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-counselling-psychology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Doctor of Philosophy in Information Systems",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "PhD",
+        "link": "https://www.kcau.ac.ke/course/doctor-of-philosophy-in-information-systems/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Computer Networks and Systems Administration",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-computer-networks-and-systems-administration/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certified Forensic Fraud Examiner (CFFE)",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/certified-forensic-fraud-examiner-cffe/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Journalism and Digital Media",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-journalism-and-digital-media/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Information and Communications Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-information-and-communications-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Pedagogy and Instruction",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-pedagogy-and-instruction/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Information Communication Technology",
+        "department": "School of Technology",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-information-communication-technology-2/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Applied Computing",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-applied-computing/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Education Arts",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-education-arts/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Science in Public Management",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-science-in-public-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Banking",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-banking/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Linux (Level 1",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "General",
+        "link": "https://www.kcau.ac.ke/course/linux-level-1-3/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Procurement and Logistics",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-procurement-and-logistics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Bachelor of Business Information Technology",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Undergraduate",
+        "link": "https://www.kcau.ac.ke/course/bachelor-of-business-information-technology/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Certificate in Procurement and Logisitics",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Certificate",
+        "link": "https://www.kcau.ac.ke/course/certificate-in-procurement-and-logisitics/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Diploma in Business Management",
+        "department": "School of Business",
+        "campus": "Main Campus",
+        "category": "Diploma",
+        "link": "https://www.kcau.ac.ke/course/diploma-in-business-management/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science in Development Finance",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-in-development-finance/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Science In Data Science",
+        "department": "KCA University",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-science-in-data-science/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Educational Administration, Curriculum and Policy Studies",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-educational-administration-curriculum-and-policy-studies/",
+        "institution": "KCA University"
+    },
+    {
+        "title": "Master of Education Leadership and Management",
+        "department": "School of Education",
+        "campus": "Main Campus",
+        "category": "Masters",
+        "link": "https://www.kcau.ac.ke/course/master-of-education-leadership-and-management/",
+        "institution": "KCA University"
+    }
+]

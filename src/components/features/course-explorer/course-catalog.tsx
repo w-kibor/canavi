@@ -4,7 +4,9 @@ import { useState, useMemo } from "react";
 import { Course, MOCK_COURSES, ExternalCourse } from "@/lib/data/courses";
 import { MOCK_CLUSTERS } from "@/lib/data/clusters";
 import KU_COURSES_DATA from "@/data/ku_courses.json";
+import KCA_COURSES_DATA from "@/data/kca_courses.json";
 import { ExternalCourseCard } from "@/components/features/course-explorer/external-course-card";
+import { UniversityCard } from "@/components/features/course-explorer/university-card";
 import { CourseCard } from "./course-card";
 import { Input } from "@/components/ui/input";
 import { Search, Filter, BookOpen } from "lucide-react";
@@ -16,9 +18,13 @@ export function CourseCatalog() {
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedClusterId, setSelectedClusterId] = useState<number | null>(null);
     const [activeTab, setActiveTab] = useState<"recommended" | "catalog">("recommended");
+    const [selectedUniversity, setSelectedUniversity] = useState<string | null>(null);
 
     // Cast the JSON data to the interface
-    const externalCourses: ExternalCourse[] = KU_COURSES_DATA as ExternalCourse[];
+    const externalCourses: ExternalCourse[] = [
+        ...(KU_COURSES_DATA as ExternalCourse[]),
+        ...(KCA_COURSES_DATA as ExternalCourse[])
+    ];
 
     // Get unique cluster IDs that actually have courses, plus names
     const availableClusters = useMemo(() => {
@@ -27,6 +33,16 @@ export function CourseCatalog() {
             name: c.name.replace(/Cluster \d+: /, "") // Clean name for chips
         }));
     }, []);
+
+    // Get unique universities dynamically
+    const universities = useMemo(() => {
+        const unis = new Map<string, number>();
+        externalCourses.forEach(course => {
+            const currentCount = unis.get(course.institution) || 0;
+            unis.set(course.institution, currentCount + 1);
+        });
+        return Array.from(unis.entries()).map(([name, count]) => ({ name, count }));
+    }, [externalCourses]);
 
     const filteredCourses = useMemo(() => {
         return MOCK_COURSES.filter(course => {
@@ -42,7 +58,8 @@ export function CourseCatalog() {
         return externalCourses.filter(course => {
             const matchesSearch = course.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                 course.department.toLowerCase().includes(searchQuery.toLowerCase());
-            return matchesSearch;
+            const matchesUniversity = selectedUniversity ? course.institution === selectedUniversity : true;
+            return matchesSearch && matchesUniversity;
         });
     }, [searchQuery, externalCourses]);
 
@@ -82,6 +99,42 @@ export function CourseCatalog() {
                         <BookOpen className="w-4 h-4" />
                         <span>Showing <strong>{activeTab === "recommended" ? filteredCourses.length : filteredExternalCourses.length}</strong> courses</span>
                     </div>
+                </div>
+            </div>
+
+            {/* Browse by University Section - Always visible or only on recommended? 
+                User asked: "On the explore degree page after the recommended for you I want us to have a list of different universities"
+                So we put it *after* the Recommended tab content, OR as its own section.
+                Let's make it a distinct section visible when not searching deeply.
+             */}
+            {/* Browse by University Section */}
+            <div className="space-y-6">
+                <div className="flex items-center justify-between">
+                    {/* DEBUG INFO */}
+                    <h2 className="text-2xl font-bold text-slate-800">Browse by University ({universities.length})</h2>
+                    {selectedUniversity && (
+                        <Button variant="ghost" className="text-red-500 hover:text-red-600 hover:bg-red-50" onClick={() => setSelectedUniversity(null)}>
+                            Clear Filter
+                        </Button>
+                    )}
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {universities.map((uni) => (
+                        <UniversityCard
+                            key={uni.name}
+                            name={uni.name}
+                            courseCount={uni.count}
+                            isSelected={selectedUniversity === uni.name}
+                            onClick={() => {
+                                if (selectedUniversity === uni.name) {
+                                    setSelectedUniversity(null);
+                                } else {
+                                    setSelectedUniversity(uni.name);
+                                    setActiveTab("catalog"); // Auto-switch to catalog to show results
+                                }
+                            }}
+                        />
+                    ))}
                 </div>
             </div>
 
@@ -139,7 +192,7 @@ export function CourseCatalog() {
                         ))}
                     </div>
                 ) : (
-                    <EmptyState onClear={() => setSearchQuery("")} />
+                    <EmptyState onClear={() => { setSearchQuery(""); setSelectedUniversity(null); }} />
                 )
             )}
         </div>
