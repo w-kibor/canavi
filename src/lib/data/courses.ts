@@ -13,6 +13,15 @@ export interface Course {
     }[];
 }
 
+export interface ExternalCourse {
+    title: string;
+    department: string;
+    campus: string;
+    category: string;
+    link: string;
+    institution: string;
+}
+
 // Helper to define Grade order to compare (A > A- > ...)
 // We can reuse the points from subject-mapping or just define a helper.
 // For simplicity in data, we store strings. Logic will handle comparison.
